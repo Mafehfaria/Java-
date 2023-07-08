@@ -1,0 +1,28 @@
+const obj = [ "carro", 10,true,"abacaxi",200];
+
+obj.push("Abacate",20);
+
+console.log(obj.length);
+
+const pessoa = {
+    nome: "Maria",
+    sobrenome:"Fernanda"
+}
+
+console.log(pessoa.nome);
+console.log(pessoa.sobrenome);
+
+const pessoa1 = {
+nome: "João",
+sobrenome:"Mendes",
+idade:25,
+altura:1.70
+}
+const pessoa2 = {
+    nome: "Alice",
+    sobrenome:"Silva",
+    idade:36,
+    altura:1.55
+    }
+    console.log(pessoa1.nome,pessoa2.nome);
+    console.log(pessoa2.altura,pessoa1.altura);
